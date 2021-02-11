@@ -13,16 +13,8 @@ const IconClass = ({img}) => {
 const Footer = () => {
     return (
         <div>
-            <div className="footer">
-                <div>
-                    <img className="logo" src={Logo} alt="logo"/>
-                </div>
-                <div className="social-wrapper">
-                    <IconClass img={Jempol} />
-                </div>
-            </div>
             <div className="copyright">
-                <p>Copyright</p>
+                <p>FrontEnd Test</p>
             </div>
         </div>
     )
